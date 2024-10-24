@@ -11,16 +11,7 @@ silver: #c1b4aeff;
 /* Styles for Mobile Site */
 
 /* Header & Hero */
-h1 {
-    font-family: helvetica;
-    font-size: xx-large;
-}
-#hero {
-    text-align: center;
-}
-#hero img {
-    width: 250px;
-}
+
 /* Projects */
 
 /* Reviews */
@@ -29,9 +20,29 @@ h1 {
 
 
 /* Media state for Desktop site */
-@media (min-width: 1000px) {
+* {
+    color: whitesmoke;
+    background-color: #353238ff;
+  }
 
     /* Header & Hero */
+    h1 {
+        font-family: helvetica;
+        font-size: 5em;
+        color: whitesmoke;
+        margin-top: 0.75em;
+        text-align: center;
+    }
+    #hero p {
+        display: inline;
+        font-size: 2em;
+        font-family: arial;
+    }
+
+    #hero img {
+        max-width: 35em;
+        text-align: left;
+    }
 
     /* Projects */
 
@@ -39,4 +50,3 @@ h1 {
 
     /* Footer */
 
-}
