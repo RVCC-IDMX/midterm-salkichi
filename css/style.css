@@ -1,7 +1,26 @@
+/* Colors */
+
+/* CSS HEX 
+caramel: #be7c4dff;
+penn-red: #92140cff;
+jet: #353238ff;
+jasper: #be5a38ff;
+silver: #c1b4aeff;
+*/
+
 /* Styles for Mobile Site */
 
 /* Header & Hero */
-
+h1 {
+    font-family: helvetica;
+    font-size: xx-large;
+}
+#hero {
+    text-align: center;
+}
+#hero img {
+    width: 250px;
+}
 /* Projects */
 
 /* Reviews */
