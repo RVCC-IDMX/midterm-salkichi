@@ -28,25 +28,50 @@ silver: #c1b4aeff;
     /* Header & Hero */
     h1 {
         font-family: helvetica;
-        font-size: 5em;
+        font-size: 4em;
         color: whitesmoke;
         margin-top: 0.75em;
         text-align: center;
     }
-    #hero p {
-        display: inline;
-        font-size: 2em;
+    .container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 1em;
+    }
+    
+    .text-block {
         font-family: arial;
+        font-size: 1.75em;
+        margin-right: 1.5em;
     }
 
     #hero img {
-        max-width: 35em;
-        text-align: left;
+        margin-right: 5em;
+        max-width: 25em;
+        height: auto;
     }
+
+/* Main */
+main {
+    font-family: georgia;
+}
 
     /* Projects */
 
-    /* Reviews */
+#projects {
+        clear: both;
+        margin-bottom: 0%;
+}
 
+#projects img {
+        max-width: 20em;
+}
+
+    /* Reviews */
+.review {
+border: solid #be5a38;
+
+}
     /* Footer */
 
