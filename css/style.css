@@ -48,7 +48,15 @@ position: absolute;
     height: 100%;
 }
 
+h2 {
+    text-align: center;
+    font-family: verdana;
+    }
+
     /* Header & Hero */
+#hero {
+    padding-bottom: 4em;
+}
     h1 {
         font-family: helvetica;
         font-size: 4em;
@@ -87,24 +95,63 @@ main {
 #projects {
         clear: both;
         margin-bottom: 0%;
+        border: 0.5em outset #be7c4d;
+        border-radius: 2em;
+        text-align: center;
+        background-color: #c1b4aeff;
+        background-clip: padding-box;
+        padding-bottom: 1.5em;
+}
+
+#projects p, h2, h3 {
+    color: black;
+    background-color: #c1b4aeff;
+}
+
+.project {
+    background-color: #c1b4aeff;
+}
+
+.description {
+    background-color: #c1b4aeff;
 }
 
 #projects img {
-        max-width: 20em;
+    max-width: 20em;
 }
 
     /* Reviews */
-.review {
-border: 0.25em solid #be7c4d;
-border-radius: 1em;
-text-align: center;
-background-color: #c1b4aeff;
+#reviews h2 {
+    color: whitesmoke;
+    background-color: #353238ff;
 }
+.review {
+    border: 0.25em solid #be7c4d;
+    border-radius: 1em;
+    text-align: center;
+    background-color: #c1b4aeff;
+    flex: 1;
+    margin: 0 10px;
+    padding: 0.5em;
+}
+
+.review h3 {
+    color: black;
+    background-color: #c1b4aeff;
+    font-family: "trebuchet ms"; 
+}
+
 .review p {
 color: black;
 background-color: #c1b4aeff;
 font-family: "trebuchet ms";
 }
-
+.actualreviews {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
     /* Footer */
-
+footer {
+    text-align: center;
+}
