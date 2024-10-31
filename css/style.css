@@ -25,6 +25,29 @@ silver: #c1b4aeff;
     background-color: #353238ff;
   }
 
+  /* Video */
+#videocontainercontainer {
+    max-width: 100%;
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#videocontainer {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    padding-top: 75%;
+}
+#myvideo {
+position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+}
+
     /* Header & Hero */
     h1 {
         font-family: helvetica;
@@ -38,6 +61,7 @@ silver: #c1b4aeff;
         align-items: center;
         justify-content: space-between;
         padding: 1em;
+        padding-top: 5.5em;
     }
     
     .text-block {
@@ -50,6 +74,7 @@ silver: #c1b4aeff;
         margin-right: 5em;
         max-width: 25em;
         height: auto;
+        border-radius: 1.75em;
     }
 
 /* Main */
@@ -70,8 +95,16 @@ main {
 
     /* Reviews */
 .review {
-border: solid #be5a38;
-
+border: 0.25em solid #be7c4d;
+border-radius: 1em;
+text-align: center;
+background-color: #c1b4aeff;
 }
+.review p {
+color: black;
+background-color: #c1b4aeff;
+font-family: "trebuchet ms";
+}
+
     /* Footer */
 
