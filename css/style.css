@@ -154,4 +154,11 @@ font-family: "trebuchet ms";
     /* Footer */
 footer {
     text-align: center;
+    background-color: #92140c;
+    color: whitesmoke;
+    padding: 1em;
+    border: 0.75em outset #92140c;
+    border-radius: 1.75em;
+    max-width: 15em;
+    margin: 0 auto;
 }
